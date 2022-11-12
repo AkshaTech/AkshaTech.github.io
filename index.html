@@ -115,7 +115,7 @@
             </ul>
             
             <div id="social-media">
-                <a href="tel:+919773174055"><i class="fas fa-phone-alt"></i></a>
+                <!-- <a href="tel:+919773174055"><i class="fas fa-phone-alt"></i></a> -->
                 <a href="mailto:akshatnshah19@gmail.com"><i class="fas fa-envelope"></i></a>
                 <a href="https://www.linkedin.com/in/bhargavprajapati949/" target="_black"><i class="fab fa-linkedin"></i></a>
                
@@ -133,7 +133,20 @@
         <div id="site">
             <div id="hero" class="row">
                 <div class="hero-text col-12 order-2 col-lg-7 order-lg-2 align-self-center">
-                    <span class="preName">Hello I'm</span>
+                    <span class="preName">Hello I'm <span class="auto-type"></span></span>
+                        
+                        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                        
+                        <script>
+                        var typed = new Typed(".auto-type", {
+                        strings: ["Coding", "Working", "Learning", "Sleeping", "Eating"],
+                        typeSpeed: 150,
+                        backSpeed: 150,
+                        loop: true
+                        
+                        })
+                        
+                        </script> 
                     <br />
                     <h1 class="hero-name">Shah Akshat Nimish</h1>
                     <!-- <br/> -->
@@ -146,9 +159,11 @@
                     <a class="download-resume btn btn-outline-primary" role="button" href="./assets/17BCE107_Akshat Shah.pdf" target="_black">
                         Download Resume
                     </a>
-                    
+                    <div>
+                        <embed id="cv" src="./assets/17BCE107_Akshat Shah.pdf"/>
+                    </div>
                     <div class="social-links">
-                        <a href="tel:+919773174055"><i class="fas fa-phone-alt"></i></a>
+                        <!-- <a href="tel:+919773174055"><i class="fas fa-phone-alt"></i></a> -->
                         <a href="mailto:akshatnshah19@gmail.com"><i class="fas fa-envelope"></i></a>
                         <a href="https://www.linkedin.com/in/akshat-shah-8a3575160/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         
@@ -166,17 +181,23 @@
                     <h2>ABOUT ME</h2>
                 </div>
                 <a href=""></a>
-                <div class="about-container row">
+                <!-- <div class="about-container row">
                     <div class="about-logo col-12 col-lg-5 text-center">
                         <span class="img-wrap">
                             <img class="img-fluid" src="./assets/images/myphoto.jpg" alt="" />
                         </span>
-                    </div>
-                    <div class="about-desc col-12 col-lg-7 mt-4 mt-lg-0 px-0 pl-lg-4">
+                    </div> -->
+                    <div class="about-desc">
                         <div class="intro">
                             <div class="intro_title">Hey, I am Akshat.</div>
-                            <p>I enjoy learning new skills and improving old ones. I
-                            also deploy what I build:)</p>
+                            <p>I was born on the cusp of the technology revolution in India and ‘computer’ was the new
+                                buzzword that everyone was talking about. It was no wonder then, I always fancied myself
+                                with Computers right from my childhood, so I started learning C and JAVA right from my
+                                school days. A natural aptitude for mathematics, analytical ability and high academic
+                                credentials secured me a place in the Institute of Technology, Nirma University. As I enter
+                                this point of my life where I want to improve my skills and discover my own potential, I
+                                believe that studying Master of Computer Science degree will have a significant impact on
+                                my portfolio of expertise and knowledge. </p>
                         </div>
                         <div class="personal_detail">
                             <!-- <table>
@@ -206,14 +227,14 @@
                                 </tr>
                             </table> -->
                             
-                            <div class="pd_item">
+                            <!-- <div class="pd_item">
                                 <span class="pd_item_title">
                                     <i class="fas fa-user"></i>&nbsp;
                                     Name
                                     <span class="float-right">:</span>
                                 </span>
                                 <span class="pd_item_info"> &nbsp;&nbsp;Shah Akshat Nimish</span>
-                            </div>
+                            </div> -->
                             <div class="pd_item">
                                 <span class="pd_item_title">
                                     <i class="fas fa-envelope"></i>&nbsp;
@@ -222,21 +243,21 @@
                                 </span>
                                 <span class="pd_item_info">&nbsp;&nbsp;<a href="mailto:akshatnshah19@gmail.com">akshatnshah19@gmail.com</a></span>
                             </div>
-                            <div class="pd_item">
+                            <!-- <div class="pd_item">
                                 <span class="pd_item_title">
                                     <i class="fas fa-phone-alt"></i>&nbsp;
                                     Phone
                                     <span class="float-right">:</span>
                                 </span>
-                                <span class="pd_item_info">&nbsp;&nbsp;<a href="tel:+919773174055">+91 9773174055</a></span>
-                            </div>
+                                <span class="pd_item_info">&nbsp;&nbsp;<a href="tel:+919773174055">+1 2362341711</a></span>
+                            </div> -->
                             <div class="pd_item">
                                 <span class="pd_item_title">
                                     <i class="fas fa-map-marker-alt"></i>&nbsp;
                                     Location
                                     <span class="float-right">:</span>
                                 </span>
-                                <span class="pd_item_info">&nbsp;&nbsp;<a href="https://www.google.com/maps/@23.12967,72.540892,11z" target="_blank"> Ahmedabad, Gujarat</a></span>
+                                <span class="pd_item_info">&nbsp;&nbsp;<a href="https://goo.gl/maps/gy15Vg1Tqc5tSsXa7" target="_blank"> Vancouver, BC, Canada.</a></span>
                             </div>
                             <div class="pd_item">
                                 <span class="pd_item_title">
@@ -273,7 +294,37 @@
                     <h2>Education</h2>
                 </div>
                 
-                <div class="edu-container">
+                <div class="edu-container"> 
+                    <div class="edu-std row">
+                        <div class="col-12 col-md-6 edu-year edu-border">
+                            <div class="edu-icon edu-icon-left text-center">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            
+                            <div class="std-year-left">
+                                <span class="std-year-wrapper">2022 - 2023</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-md-6 edu-data">
+                            <div class="std-detail-right">
+                                <div class="std-name">
+                                    Master od Science in CyberSecurity
+                                </div>
+                                <div class="std-disc">
+                                    New York Institute of Technology, Vancouver
+                                    <br />
+                                    <ul style="list-style-type:circle">
+                                        <li>Worked on Algorithms.</li>
+                                        <li>Analized different concepts of solving common world problems using Greedy, Divide and Coqure, and Dynamic Programming algorithms. </li>
+                                        <li>Milk</li>
+                                      </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="edu-std row">
                         <div class="col-12 col-md-6 edu-year edu-border">
                             <div class="edu-icon edu-icon-left text-center">
@@ -292,12 +343,19 @@
                                 </div>
                                 <div class="std-disc">
                                     Nirma University, Ahmedabad
-                                    <!-- <br />
-                                    CPI : 7.67 (till semester 6) -->
+                                    <br />
+                                    <ul style="list-style-type:circle">
+                                        <li>CPI : 7.67 (till semester 6)</li>
+                                        <li>Tea</li>
+                                        <li>Milk</li>
+                                      </ul>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    
                     
                     <div class="edu-std row">
                         <div class="col-12 col-md-6 order-2 order-md-1 edu-data edu-border">
@@ -374,6 +432,185 @@
                         </div>
                     </div>
                 </div> -->
+            </div>
+
+            <div id="project">
+                <div class="heading text-center d-block">
+                    <h2>Work Expirience</h2>
+                </div>
+                
+                <div id="project-main" class="row">
+                    
+
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">Software Engineer 1</div>
+                            <div class="project-tag-container">
+                                <div>Company: SOPHOS Technologies Pvt. Ltd.</div>
+
+                            </div>
+                            <div class="project-tag-container">
+                                <!-- <div class="project-tag-container"> -->
+                                    <div>Technologies: </div>
+
+                                <!-- </div> -->
+                                <div class="project-tag">
+                                    
+                                    Selenium
+                                </div>
+                                <div class="project-tag">
+                                    
+                                    Java
+                                </div>
+                                <div class="project-tag">
+                                    
+                                    Java
+                                </div>
+                                
+                            </div>
+                            <div class="project-description">
+                                This is Fest management system to mainly manage big collage fest. For regestration of participants, payment, attendance at event site, provide certificate etc...
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">Content-Based Image Retrieval (CBIR) System</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    JAVA Swing
+                                </div>
+                                
+                            </div>
+                            <div class="project-description">
+                                This is Fest management system to mainly manage big collage fest. For regestration of participants, payment, attendance at event site, provide certificate etc...
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">Content-Based Image Retrieval (CBIR) System</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    JAVA Swing
+                                </div>
+                                
+                            </div>
+                            <div class="project-description">
+                                This is Fest management system to mainly manage big collage fest. For regestration of participants, payment, attendance at event site, provide certificate etc...
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">CodeHub</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    HTML
+                                </div>
+                                
+                                <div class="project-tag">
+                                    
+                                    CSS
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                It is a website created by using HTML, and CSS that enables the user to code variouscoding problems, study the various algorithms provided and find some tips and tricks that give them the edge overother coders
+                            </div>
+                            <div class="button-container d-flex flex-row justify-content-center">
+                                <a class="btn btn-primary project-btn" role="button" href="https://cache99.github.io/inout.html" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Visit
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">Content-Based Image Retrieval (CBIR) System</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    JAVA Swing
+                                </div>
+                                
+                            </div>
+                            <div class="project-description">
+                                This is Fest management system to mainly manage big collage fest. For regestration of participants, payment, attendance at event site, provide certificate etc...
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">CodeHub</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    HTML
+                                </div>
+                                
+                                <div class="project-tag">
+                                    
+                                    CSS
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                It is a website created by using HTML, and CSS that enables the user to code variouscoding problems, study the various algorithms provided and find some tips and tricks that give them the edge overother coders
+                            </div>
+                            <div class="button-container d-flex flex-row justify-content-center">
+                                <a class="btn btn-primary project-btn" role="button" href="https://cache99.github.io/inout.html" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Visit
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-title">Covid-19 Tracker</div>
+                        <div class="project-tag-container">
+                            <div class="project-tag">
+                                
+                                JAVA
+                            </div>
+                            <div class="project-tag">
+                                
+                                Android SDK
+                            </div>
+                            <div class="project-tag">
+                                
+                                XML Basics
+                            </div>
+                            <div class="project-tag">
+                                <i class="fas fa-mobile-alt"></i>
+                                Mobile App Development
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            This is a Android based app, where I have used Rest API and Volly library. This displays the most realtime data of total cases,total active cases and recovered, globally and country wise.
+                        </div>
+                        <!-- <div class="button-container d-flex flex-row justify-content-center">
+                            <button class="btn btn-primary project-btn">
+                                <i class="fas fa-stroopwafel"></i>
+                                Demo
+                            </button>
+                            <button class="btn btn-primary project-btn">
+                                <i class="fab fa-github"></i>
+                                Docs
+                            </button>
+                        </div> -->
+                    </div>
+
+                </div>
             </div>
             
             <div id="techSkills">
@@ -620,9 +857,6 @@
                 
                 <div id="project-main" class="row">
                     <div class="project-card-container col-lg-6 col-12">
-                        
-                    </div>
-                    <div class="project-card-container col-lg-6 col-12">
                         <div class="project-card">
                             <div class="project-title">Enterprise Resource Planning (ERP)- Purchase & Inventory Module</div>
                             <div class="project-tag-container">
@@ -695,43 +929,231 @@
                                     Visit
                                 </a>
                             </div>
+                            <div class="project-tag-container">
+                                <div >
+                                    
+                                    <img width="600"  src="./assets/images/codehub_1.png" alt="My Photo" class="img-fluid myphoto" />
+                                    
+                                </div>
+                            </div>
                         </div>
+                        
                     </div>
-                    <div class="project-card">
-                        <div class="project-title">Covid-19 Tracker</div>
-                        <div class="project-tag-container">
-                            <div class="project-tag">
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">Covid-19 Tracker</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
                                 
-                                JAVA
+                                    JAVA
+                                </div>
+                                <div class="project-tag">
+                                    
+                                    Android SDK
+                                </div>
+                                <div class="project-tag">
+                                    
+                                    XML Basics
+                                </div>
                             </div>
-                            <div class="project-tag">
+                            <div class="project-description">
+                                <ul>
+                                    <li>Covid Tracker is a java based android application that I developed as a part of minor project 3.</li>
+                                    <li>This project shows the count of the covid cases.</li>
+                                    <li>The app shows the no of cases in the entire world, with the readings like Total cases, Active cases, and Recovered cases.</li>
+                                    <li>The app also showed the data country-wise.</li>
+                                    <li>I learned Java-based android development.</li>
+                                    <li>I could have added some additional functionalities like the map of the world and added the data on the map.</li>
+                                    <li>The Project helped me understand the Front end and backend mechanism of the android systems.</li>
+                                    <li>This project helped me in better project planning. 
+                                    
+                                        </li>
+                                        <li>The initial stage of any project is not on the computer but on the whiteboard. This is where we first plan the entire project. </li>
+                                        <li>A well-planned project is crucial to the project being a success.</li>
+                                    </ul>
+                            </div>
+                            <div class="project-tag-container">
+                                <div >
+                                    
+                                    <img width="200" height="200" src="./assets/images/c19_1.png" alt="My Photo" class="img-fluid myphoto" />
+                                    <img width="200" height="200" src="./assets/images/c19_2.png" alt="My Photo" class="img-fluid myphoto" />
+                                    <img width="200" height="200" src="./assets/images/c19_3.png" alt="My Photo" class="img-fluid myphoto" />
+
+                                </div>
                                 
-                                Android SDK
                             </div>
-                            <div class="project-tag">
-                                
-                                XML Basics
-                            </div>
-                            <div class="project-tag">
-                                <i class="fas fa-mobile-alt"></i>
-                                Mobile App Development
-                            </div>
+                            <!-- <div class="button-container d-flex flex-row justify-content-center">
+                                <a class="btn btn-primary project-btn" role="button" href="https://cache99.github.io/inout.html" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Visit
+                                </a>
+                            </div> -->
                         </div>
-                        <div class="project-description">
-                            This is a Android based app, where I have used Rest API and Volly library. This displays the most realtime data of total cases,total active cases and recovered, globally and country wise.
+                        
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div id="project">
+                <div class="heading text-center d-block">
+                    <h2>Achievements</h2>
+                </div>
+                
+                <div id="project-main" class="row">
+                    
+
+                    
+
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">Worked for an NGO called Nirma Volenteaching Movement.
+                            </div>
+                            
+                            <div class="project-description">
+                                <ul style="list-style-type:circle">
+                                    <li>I worked with NVM for more than a year. It was an NGO that the students of 
+                                        Nirma University established to help the less privileged children.</li>
+                                    <li>We went to a small village called Miroli, which is 2 hours away from our
+                                        university and taught the children there. We would also try to understand the 
+                                        problems of the families there and do our best to ensure that their children’s 
+                                        education was taken care of.  </li>
+                                    <li> We organize Shan, which is an annual event where we bring the children of 
+                                        Miroli village to our university to experience the university campus and do fun 
+                                        activities</li>
+                                        <li>
+                                            I learned how to interact with children. They have the shortest attention span
+and are curious about everything. So, this meant it was next to impossible to 
+get them to study. But we made them realize the importance of education and 
+how it has the power to change their lives.
+                                        </li>
+                                        <li>
+                                            In the future, if I get a chance to revisit these children, I would love to go to 
+Miroli and see how our actions have affected the village in the long run.
+                                        </li>
+                                        <li>
+                                            The experience taught me that everyone has different struggles and if our 
+actions can help someone become even 1% better, we should not hesitate.
+                                        </li>
+                                  </ul>
+                              
+                            </div>
+                            <div class="project-tag-container">
+                                <div >
+                                    
+                                    <img width="300" height="300" src="./assets/images/WhatsApp Image 2022-11-11 at 1.08.51 PM.jpeg" alt="My Photo" class="img-fluid myphoto" />
+                                    <img width="300" height="300" src="./assets/images/WhatsApp Image 2022-11-11 at 1.11.56 PM.jpeg" alt="My Photo" class="img-fluid myphoto" />
+                                </div>
+                                
+                            </div>
+                            
                         </div>
-                        <!-- <div class="button-container d-flex flex-row justify-content-center">
-                            <button class="btn btn-primary project-btn">
-                                <i class="fas fa-stroopwafel"></i>
-                                Demo
-                            </button>
-                            <button class="btn btn-primary project-btn">
-                                <i class="fab fa-github"></i>
-                                Docs
-                            </button>
-                        </div> -->
                     </div>
 
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">Poster Presentation</div>
+                            <!-- <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    JAVA Swing
+                                </div>
+                                
+                            </div> -->
+                            <div class="project-description">
+                                This is Fest management system to mainly manage big collage fest. For regestration of participants, payment, attendance at event site, provide certificate etc...
+                            </div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/l66ezcFc3wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">Content-Based Image Retrieval (CBIR) System</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    JAVA Swing
+                                </div>
+                                
+                            </div>
+                            <div class="project-description">
+                                This is Fest management system to mainly manage big collage fest. For regestration of participants, payment, attendance at event site, provide certificate etc...
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">CodeHub</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    HTML
+                                </div>
+                                
+                                <div class="project-tag">
+                                    
+                                    CSS
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                It is a website created by using HTML, and CSS that enables the user to code variouscoding problems, study the various algorithms provided and find some tips and tricks that give them the edge overother coders
+                            </div>
+                            <div class="button-container d-flex flex-row justify-content-center">
+                                <a class="btn btn-primary project-btn" role="button" href="https://cache99.github.io/inout.html" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Visit
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">Content-Based Image Retrieval (CBIR) System</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    JAVA Swing
+                                </div>
+                                
+                            </div>
+                            <div class="project-description">
+                                This is Fest management system to mainly manage big collage fest. For regestration of participants, payment, attendance at event site, provide certificate etc...
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="project-card-container col-lg-6 col-12">
+                        <div class="project-card">
+                            <div class="project-title">CodeHub</div>
+                            <div class="project-tag-container">
+                                <div class="project-tag">
+                                    
+                                    HTML
+                                </div>
+                                
+                                <div class="project-tag">
+                                    
+                                    CSS
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                It is a website created by using HTML, and CSS that enables the user to code variouscoding problems, study the various algorithms provided and find some tips and tricks that give them the edge overother coders
+                            </div>
+                            <div class="button-container d-flex flex-row justify-content-center">
+                                <a class="btn btn-primary project-btn" role="button" href="https://cache99.github.io/inout.html" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Visit
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
                         
@@ -786,24 +1208,34 @@
                                 
                             </div>
                         </div>
-
                         <div class="oc_item">
-                            <div class="oc_title">Algorithm Toolbox</div>
+                            <div class="oc_title">IT Security: Defense against the digital dark arts</div>
+                            <a href="https://coursera.org/share/911d3e17c27aa6ad1dd1e27dfbffd1b4" target="_black">
+                                <div><img width="300" height="300" src="./assets/images/2022-11-11 13_47_22-Coursera _ Online Courses & Credentials From Top Educators. Join for Free _ Cour.png" alt="My Photo" class="img-fluid myphoto" /></div>
+                            </a>
                             <div class="d-flex justify-content-between">
                                 <div class="oc_platform">
                                     <i class="fas fa-chalkboard-teacher"></i>
                                     Coursera
                                 </div>
-                                <!-- <div class="oc_certi">
-                                    <i class="fas fa-scroll"></i>
-                                    <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-QOMNYNHE.pdf" target="_black"> Certificate </a>
-                                </div> -->
+                                
                             </div>
                         </div>
-                            <!-- <div class="oc_certi">
-                                <i class="fas fa-scroll"></i>
-                                <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-QOMNYNHE.pdf" target="_black"> Certificate </a>
-                            </div> -->
+
+                        <div class="oc_item">
+                            <div class="oc_title">Algorithm Toolbox</div>
+                            <a href="https://coursera.org/share/0e645857fb4cf170d9abe3d8b2945feb" target="_black">
+                                <div><img width="300" height="300" src="./assets/images/2022-11-11 13_47_22-Coursera _ Online Courses & Credentials From Top Educators. Join for Free _ Cour.png" alt="My Photo" class="img-fluid myphoto" /></div>
+                            </a>
+                            <div class="d-flex justify-content-between">
+                                <div class="oc_platform">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Coursera
+                                </div>
+                                
+                            </div>
+                        </div>
+                            
                         </div>
                     </div>
 

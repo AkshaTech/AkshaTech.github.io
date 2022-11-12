@@ -366,7 +366,7 @@ p {
 
 #hero .myphoto {
   display: inline-block;
-  width: 400px;
+  /* width: 400px; */
   height: 400px;
   min-width: 350px;
   border: #3e3f40 solid 20px;
@@ -452,6 +452,7 @@ p {
 #about {
   padding: 4rem 8rem;
   background-color: #1d1d1f;
+  float: left;
 }
 
 @media (max-width: 575.95px) {
